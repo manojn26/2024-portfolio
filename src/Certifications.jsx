@@ -1,5 +1,5 @@
 import CertificationCard from "./CertificateCard";
-import certificates from "./certifications.json";
+import certificates from "./certifications";
 export default function Certifications() {
   return (
     <div>
@@ -18,7 +18,6 @@ export default function Certifications() {
               Name={certificate.Name}
               Company={certificate.Company}
               IssueDate={certificate.IssueDate}
-              Link={certificate.Link}
               ImgSrc={certificate.ImgSrc}
             />
           ))}

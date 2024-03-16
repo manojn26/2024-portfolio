@@ -14,7 +14,12 @@ export default function ProjectCard(props) {
         src={props.ImgSrc}
         alt=""
         className="rounded mb-4"
-        style={{ height: "10rem" }}
+        style={{
+          borderRadius: "0.5rem",
+          height: "15rem",
+          objectFit: "cover",
+          width: "100%"
+        }}
       />
       <h4 className="text-white font-bold mb-2" style={{ minHeight: "3rem" }}>
         {props.Name}

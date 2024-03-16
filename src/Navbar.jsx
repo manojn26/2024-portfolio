@@ -40,16 +40,20 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`navbar-container flex justify-between items-center h-14 px-48 py-10 md:px-24 ${
-          opaque && "bg-slate-950"
-        }`}
+        className={`navbar-container flex justify-between items-center h-14 px-48 py-10 md:px-24 ${opaque && "bg-slate-950"
+          }`}
         style={{
           position: "fixed",
           width: "100%",
           zIndex: "10000",
         }}
       >
-        <div className="my-logo font-medium text-white">SG</div>
+
+        <div className="my-logo font-medium text-white">
+          <a href="#" className="home">
+            MK
+          </a>
+        </div>
         <div className="toggle-icon text-white" onClick={handleToggleClick}>
           {mobileNavOpen ? (
             <i className="fa-solid fa-xmark"></i> // Cross icon for closing
@@ -59,61 +63,47 @@ export default function Navbar() {
         </div>
 
         <div className="nav-links flex font-medium text-white justify-around gap-8">
-          <a href="#" className="home">
-            Home
-          </a>
+
+
           <a href="#about-section" className="about">
             About
           </a>
           <a href="#skill-container" className="skill">
             Skills
           </a>
-          <a href="#workex-container" className="workex">
-            Work Exp
+          <a href="#education" className="about">
+            Education
           </a>
           <a href="#projects-container" className="project">
             Projects
           </a>
-          <a href="#publications-container" className="publication">
-            Publications
+          <a href="#exp" className="workex">
+            Exp
+          </a>
+
+          <a href="#achievements" className="certification">
+            Achievements
           </a>
 
           <a href="#certifications-container" className="certification">
             Certifications
           </a>
-          <a
-            href="https://saumyagupta.hashnode.dev/"
-            target="_blank"
-            className="certification"
-          >
-            Blogs
-          </a>
+
+
+
         </div>
       </div>
 
       <div
-        className={`mobile-nav bg-slate-950 px-12 py-6 h-screen w-screen ${
-          mobileNavOpen
-            ? "slide-in-from-left block"
-            : closingAnimation
+        className={`mobile-nav bg-slate-950 px-12 py-6 h-screen w-screen ${mobileNavOpen
+          ? "slide-in-from-left block"
+          : closingAnimation
             ? "slide-out-to-right" // Use 'slide-out-to-right' for right slide out:
             : " hidden"
-        }`}
+          }`}
         style={{ zIndex: 1000, position: "fixed" }}
       >
-        {/* <div className="flex justify-between">
-          <div className="my-logo font-medium text-white mb-6">SG</div>
-          <div
-            className="close-btn text-white text-xl"
-            onClick={handleCloseClick}
-          >
-            <i class="fa-solid fa-xmark"></i>
-          </div>
-        </div> */}
         <div className="nav-links-mobile flex flex-col font-small text-white justify-around gap-4 mt-10">
-          <a href="#" className="home" onClick={handleNavItemClick}>
-            Home
-          </a>
           <a
             href="#about-section"
             className="about"
@@ -129,11 +119,11 @@ export default function Navbar() {
             Skills
           </a>
           <a
-            href="#workex-container"
+            href="#education"
             className="workex"
             onClick={handleNavItemClick}
           >
-            Work Exp
+            Education
           </a>
           <a
             href="#projects-container"
@@ -143,26 +133,24 @@ export default function Navbar() {
             Projects
           </a>
           <a
-            href="#publications-container"
+            href="#exp"
             className="publication"
             onClick={handleNavItemClick}
           >
-            Publications
+            Exp
           </a>
           <a
-            href="#certifications-container"
+            href="#achievements"
             className="certification"
             onClick={handleNavItemClick}
           >
-            Certifications
+            Achievements
           </a>
           <a
-            href="https://saumyagupta.hashnode.dev/"
-            className="blogs"
-            target="_blank"
+            href="#certifications-container"
             onClick={handleNavItemClick}
           >
-            Blogs
+            Certification
           </a>
         </div>
       </div>

@@ -4,10 +4,12 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
-import Publications from "./Publication";
+
 import Certifications from "./Certifications";
 import WorkEx from "./WorkEx";
 import Footer from "./Footer";
+import Education from "./Education";
+import Achievements from "./Achievements";
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <WorkEx />
+      <Education />
       <Projects />
-      <Publications />
+      <WorkEx />
+      <Achievements />
       <Certifications />
       <Footer />
     </div>

@@ -1,59 +1,45 @@
-export default function WorkEx() {
+export default function Education() {
   return (
     <div>
       <div
-        id="exp"
+        id="education"
         className="workex-container bg-slate-900 pt-20 pb-12"
         style={{ zIndex: 100, position: "relative" }}
       >
         <h3 className="text-white text-center text-3xl font-bold my-6">
-          Work Experience
+          Education
         </h3>
         <div className="timeline mt-6">
           <div className="timeline-container">
             <div className="timeline-block timeline-block-right">
               <div className="marker"></div>
               <div className="timeline-content">
-                <h3 className="text-sky-500">Web Developer Intern</h3>
-                <span className="text-white">Neowep Software Technologies</span>
+                <h3 className="text-sky-500">M.Sc Computer Science</h3>
+                <span className="text-white">Government Arts and Science College, Hosur</span>
                 <p className="text-white mb-3">
-                  <em>Jun 2022 - Aug 2022</em>
+                  <em>Oct 2021 - Sep 2023</em>
                 </p>
-                <p className="text-gray-400 text-justify">
-                  • Developed and maintained web applications using JavaScript, HTML5, CSS3, MySQL database
+                <p className="text-white mb-3">
+                  <em>CGPA : 8.2</em>
                 </p>
-                <p className="text-gray-400 text-justify mt-2">
-                  • Developed responsive design that improved mobile usability
-                </p>
-                <p className="text-gray-400 text-justify mt-2">
-                  • Assist in testing web experiences across browsers and devices to ensure a positive user experience
-                </p>
-
               </div>
             </div>
-            {/* 
+
             <div className="timeline-block timeline-block-left">
               <div className="marker"></div>
               <div className="timeline-content">
-                <h3 className="text-sky-500">Data and AI Intern</h3>
-                <span className="text-white">Cognitive Garage, Delhi</span>
+                <h3 className="text-sky-500">B.Sc Computer Science</h3>
+                <span className="text-white">Krishna Arts and Science College, Krishnagiri</span>
                 <p className="text-white mb-3">
-                  <em>January 2023 - June 2023</em>
+                  <em>Jul 2018 - Aug 2021</em>
                 </p>
-                <p className="text-justify text-gray-400">
-                  Analyzed transaction data of people to identify the credit
-                  risk associated with it. Built an object detection model using
-                  YOLOv7 for identification of the various articles with an
-                  accuracy of 95% used for loan risk prediction. Worked on
-                  building a RNN Model for prediction of the diseases based on
-                  symptoms which are entered one by one after each iteration, to
-                  assign a score and give the most accurate prediction for the
-                  entered set of symptoms.
+                <p className="text-white mb-3">
+                  <em>CGPA : 7.6</em>
                 </p>
               </div>
             </div>
 
-            <div className="timeline-block timeline-block-right">
+            {/* <div className="timeline-block timeline-block-right">
               <div className="marker"></div>
               <div className="timeline-content">
                 <h3 className="text-sky-500">Data Science Intern</h3>
@@ -97,8 +83,6 @@ export default function WorkEx() {
                 </p>
               </div>
             </div> */}
-
-
           </div>
         </div>
       </div>
