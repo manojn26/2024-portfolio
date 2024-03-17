@@ -1,4 +1,3 @@
-// import ParticleNew from "./ParticlesNew";
 
 import Particle from "./Particle";
 export default function Home() {
@@ -7,7 +6,6 @@ export default function Home() {
       <Particle />
       <div
         className="home flex flex-col items-center justify-center gap-4 h-screen align-center"
-      // style={{ margin: "13rem auto 17rem auto" }}
       >
         <p className="name font-medium text-white text-8xl content-center">
           Manoj Kumar <span className="text-sky-500">N</span>

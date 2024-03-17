@@ -12,7 +12,6 @@ export default function Projects() {
       </h3>
 
       <div className="project-list flex flex-wrap gap-x-10 gap-y-16 justify-center">
-        {/* console.log(projects) */}
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

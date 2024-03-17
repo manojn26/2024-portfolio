@@ -23,7 +23,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <h2 className=" ml-20 text-white  text-3xl font-bold mb-8">Front End</h2>
+        <h2 className=" ml-20 text-white  text-3xl font-bold mb-8 mt-8">Front End</h2>
         <div className="skill flex flex-wrap justify-center gap-5  align-center">
           {frontEndData.map((skill, index) => (
             <div key={index} className="w-1/8">

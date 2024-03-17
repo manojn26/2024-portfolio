@@ -201,38 +201,6 @@
   }
 }
 
-/* @media screen and (max-width: 2570px) {
-  .toggle-icon {
-    display: none !important;
-  }
-
-  .about-section-container {
-    padding: 7rem 10rem !important;
-    justify-content: flex-start !important;
-    gap: 10rem !important;
-  }
-  .img-saumya {
-    height: 25rem !important;
-    width: 25rem !important;
-  }
-  .greetings {
-    padding-top: 5rem !important;
-  }
-  .introduction-para {
-    width: 80rem !important;
-  }
-  .publication-container,
-  .skill {
-    padding-left: 15rem !important;
-    padding-right: 15rem !important;
-  }
-  .certification-list {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-    gap: 3rem !important;
-  }
-} */
-
 @media screen and (max-width: 1440px) {
   .toggle-icon {
     display: none !important;
@@ -316,10 +284,11 @@
 
 @media screen and (max-width: 440px) {
   .name {
-    font-size: 3.3rem !important;
+    font-size: 2.5rem !important;
   }
   .title {
     font-size: 1.2rem !important;
+    margin-top: -1rem;
   }
 
   .socials {

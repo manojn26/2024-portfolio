@@ -4,7 +4,6 @@ export default function Navbar() {
   const [opaque, setOpaque] = useState(false);
   useEffect(() => {
     window.onscroll = (event) => {
-      // console.log(window.scrollY);
       if (window.scrollY > 220) {
         setOpaque(true);
       } else {
@@ -20,20 +19,15 @@ export default function Navbar() {
     setClosingAnimation(false);
   };
 
-  // const handleCloseClick = () => {
-  //   setMobileNavOpen(false);
-  // };
-
   const handleCloseClick = () => {
     setClosingAnimation(true);
     setTimeout(() => {
       setMobileNavOpen(false);
       setClosingAnimation(false);
-    }, 500); // Adjust timeout to match animation duration
+    }, 500);
   };
 
   const handleNavItemClick = () => {
-    // Close mobile nav on any nav item click
     setMobileNavOpen(false);
   };
 
@@ -98,7 +92,7 @@ export default function Navbar() {
         className={`mobile-nav bg-slate-950 px-12 py-6 h-screen w-screen ${mobileNavOpen
           ? "slide-in-from-left block"
           : closingAnimation
-            ? "slide-out-to-right" // Use 'slide-out-to-right' for right slide out:
+            ? "slide-out-to-right"
             : " hidden"
           }`}
         style={{ zIndex: 1000, position: "fixed" }}

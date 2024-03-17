@@ -35,7 +35,7 @@ export default function About() {
             className="text-white introduction-para"
             style={{ margin: "1rem 2rem 1rem 5rem" }}
           >
-            Welcome! I'm  a web alchemist crafting captivating online experiences. {" "}
+            I'm  a web alchemist crafting captivating online experiences. {" "}
             With expertise in <span className="text-sky-500">
               React, JavaScript, Node.js, MySQL, Git, and MongoDB.
 
@@ -53,15 +53,6 @@ export default function About() {
           src={profileImg}
           alt="manoj-img"
           className=" text-white img-manoj"
-          // style={{
-          //   margin: "0rem 5rem 1rem 1rem",
-          //   // borderRadius: "50%",
-          //   width: "90%",
-          //   height: "20rem",
-          //   position: "relative",
-          //   objectFit: "cover",
-          // }}
-
           style={{
             width: "50%",
             height: "20rem",
