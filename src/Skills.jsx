@@ -15,7 +15,7 @@ export default function Skills() {
 
 
         <h2 className=" ml-20 text-white  text-3xl font-bold mb-8">Programming Languages</h2>
-        <div className="skill flex flex-wrap justify-center gap-5  align-center">
+        <div className="skill ml-20 flex flex-wrap justify-center gap-5 mr-20  align-center">
           {programmingLanguages.map((skill, index) => (
             <div key={index} className="w-1/8">
               <SkillCard name={skill.name} path={skill.path} />
@@ -24,7 +24,7 @@ export default function Skills() {
         </div>
 
         <h2 className=" ml-20 text-white  text-3xl font-bold mb-8 mt-8">Front End</h2>
-        <div className="skill flex flex-wrap justify-center gap-5  align-center">
+        <div className="skill ml-20 flex flex-wrap justify-center gap-5 mr-20  align-center">
           {frontEndData.map((skill, index) => (
             <div key={index} className="w-1/8">
               <SkillCard name={skill.name} path={skill.path} />
@@ -33,7 +33,7 @@ export default function Skills() {
         </div>
 
         <h2 className=" ml-20 text-white  text-3xl font-bold mb-8 mt-8">Back End</h2>
-        <div className="skill flex flex-wrap justify-center gap-5  align-center">
+        <div className="skill ml-20 flex flex-wrap justify-center gap-5 mr-20  align-center">
           {backendData.map((skill, index) => (
             <div key={index} className="w-1/8">
               <SkillCard name={skill.name} path={skill.path} />
@@ -42,7 +42,7 @@ export default function Skills() {
         </div>
 
         <h2 className=" ml-20 text-white  text-3xl font-bold mb-8 mt-8">Databases</h2>
-        <div className="skill flex flex-wrap justify-center gap-5  align-center">
+        <div className="skill ml-20 flex flex-wrap justify-center gap-5 mr-20  align-center">
           {database.map((skill, index) => (
             <div key={index} className="w-1/8">
               <SkillCard name={skill.name} path={skill.path} />
@@ -51,7 +51,7 @@ export default function Skills() {
         </div>
 
         <h2 className=" ml-20 text-white  text-3xl font-bold mb-8 mt-8">Other Tools</h2>
-        <div className="skill flex flex-wrap justify-center gap-5  align-center">
+        <div className="skill ml-20 flex flex-wrap justify-center gap-5 mr-20  align-center">
           {otherTools.map((skill, index) => (
             <div key={index} className="w-1/8">
               <SkillCard name={skill.name} path={skill.path} />
