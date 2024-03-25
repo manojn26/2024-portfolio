@@ -1,6 +1,6 @@
 const certificationData = [
   {
-    Name: "The of Computing Using Python",
+    Name: "The Joy of Computing Using Python",
     Company: "NPTEL",
     IssueDate: "OCT 2022",
     ImgSrc: "./nptel.jpg",
