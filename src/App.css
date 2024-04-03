@@ -58,6 +58,10 @@
   animation-delay: 3s;
 }
 
+.cur:hover {
+  cursor: pointer;
+}
+
 @keyframes wave-animation {
   0%,
   50%,

@@ -48,7 +48,7 @@ export default function Navbar() {
             MK
           </a>
         </div>
-        <div className="toggle-icon text-white" onClick={handleToggleClick}>
+        <div className="toggle-icon text-white cur" onClick={handleToggleClick}>
           {mobileNavOpen ? (
             <i className="fa-solid fa-xmark"></i> // Cross icon for closing
           ) : (
@@ -94,7 +94,7 @@ export default function Navbar() {
           : closingAnimation
             ? "slide-out-to-right"
             : " hidden"
-          }`}
+          } `}
         style={{ zIndex: 1000, position: "fixed" }}
       >
         <div className="nav-links-mobile flex flex-col font-small text-white justify-around gap-4 mt-10">
