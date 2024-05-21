@@ -18,7 +18,7 @@ export default function Home() {
             <i className="fa-solid fa-envelope text-white"></i>
           </a>
           <a
-            href="https://drive.google.com/file/d/1dHlHGZ1hAvKMLDlXdpPT6TB7z6inqIml/view?usp=sharing"
+            href="https://drive.google.com/file/d/104XQaOpa1eeWHDeY41rS9YK04tlFMQSQ/view?usp=sharing"
             target="_blank"
           >
             <i className="fa-solid fa-file-lines text-white"></i>

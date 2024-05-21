@@ -3,6 +3,7 @@ const projectData = [
     Name: "E-Shopping",
     Desc: "Developed an E-commerce website, including product catalogue, checkout process.The code is an end to end solution",
     GithubLink: "https://github.com/manojn26/MyEcommerce/tree/main/Shopping",
+    Demo: "https://its-our-shopping.netlify.app/",
     ImgSrc:
       "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg",
   },
