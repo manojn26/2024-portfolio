@@ -16,6 +16,14 @@ const projectData = [
       "https://img.freepik.com/free-vector/conversation-concept-illustration_114360-1305.jpg",
   },
   {
+    Name: "Netflix GPT",
+    Desc: "Netflix GPT is a cutting-edge movie streaming platform using Google's Gemini AI for intuitive searches. Fetching data from TMDB API, it supports 100,000+ movies, handles 1000+ searches daily, and personalizes recommendations for more users.",
+    GithubLink: "https://github.com/manojn26/netflix-gpt",
+    Demo: "https://netflix-gpt-ai.netlify.app/",
+    ImgSrc:
+      "https://img.freepik.com/premium-photo/virtual-reality-glasses_43901-87.jpg",
+  },
+  {
     Name: "Youtube Clone",
     Desc: "YouTube Clone is a web application that replicates the core functionalities of YouTube, allowing users to search for videos, watch them, and explore related content. This project is built using React.js for the frontend and utilizes the YouTube Data API via Rapid API for fetching video data.",
     GithubLink: "https://github.com/manojn26/my-youtube",
