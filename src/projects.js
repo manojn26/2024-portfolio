@@ -19,7 +19,7 @@ const projectData = [
     Name: "Netflix GPT",
     Desc: "Netflix GPT is a cutting-edge movie streaming platform using Google's Gemini AI for intuitive searches. Fetching data from TMDB API, it supports 100,000+ movies, handles 1000+ searches daily, and personalizes recommendations for more users.",
     GithubLink: "https://github.com/manojn26/netflix-gpt",
-    Demo: "https://netflix-gpt-ai.netlify.app/",
+    Demo: "https://cinephile-ai.netlify.app/",
     ImgSrc:
       "https://img.freepik.com/premium-photo/virtual-reality-glasses_43901-87.jpg",
   },
